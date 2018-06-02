@@ -1,4 +1,4 @@
 FROM nginx
-RUN yum install vim
+RUN apt-get install vim
 COPY default.conf /etc/nginx/conf.d/
 EXPOSE 80
